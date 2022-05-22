@@ -13,7 +13,7 @@ function App() {
     <div>
       <ApolloProvider client={client}>
         <Routes>
-          <Route path="/spacex_launches" exact element={<Home />}></Route>
+          <Route path="/" exact element={<Home />}></Route>
         </Routes>
       </ApolloProvider>
     </div>

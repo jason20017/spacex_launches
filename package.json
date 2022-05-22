@@ -2,7 +2,7 @@
   "name": "spacex_launches",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://jason20017.github.io/spacex_launches",
+  "homepage":"/",
   "dependencies": {
     "@apollo/client": "^3.6.4",
     "@testing-library/jest-dom": "^5.16.4",
