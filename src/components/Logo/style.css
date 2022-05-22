@@ -1,0 +1,14 @@
+.logo {
+  width: 25%;
+}
+
+.logo g {
+  fill: var(--main-light);
+}
+
+@media (max-width: 900px) {
+  .logo {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

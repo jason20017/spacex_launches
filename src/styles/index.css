@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+:root {
+  --main-dark: #272727;
+  --main-light: #ffffff;
+  --helper-grey: #efefef;
+  --helper-dark: #040301;
+}
+
+.general {
+  background-image: url("https://www.spacex.com/static/images/backgrounds-2022/crew-3-return/pre-undocking/Homepage_Desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  background-color: var(--helper-grey);
+}
+
+.home__container .searchBar_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home__container .searchBar_container .searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.home__container .searchBar_container .searchBar .card_label {
+  margin: 0.5rem 0.5rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.home__container .card_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 6rem;
+}
+
+.home__container .card_container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  min-width: 23rem;
+}
+
+.home__container .card_container .card .card-img-top {
+  height: 24rem;
+  overflow: hidden;
+}
+
+.home__container .card_container .card .card-body {
+  width: 25rem;
+  font-weight: 600;
+}
+
+.home__container .card_container .card .card-body h5 {
+  font-weight: 600;
+}
+/*# sourceMappingURL=index.css.map */

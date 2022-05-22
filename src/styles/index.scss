@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  
+    // border: red 1px solid !important;
+}
+
+:root {
+    --main-dark: #272727;
+    --main-light: #ffffff;
+    --helper-grey: #efefef;
+    --helper-dark: #040301;
+}
+
+
+
+.home__container{
+    background-image: url('https://www.spacex.com/static/images/backgrounds-2022/crew-3-return/pre-undocking/Homepage_Desktop.jpg');
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-color: var(--helper-grey);
+    
+    //Search Bar
+    .searchBar_container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .searchBar{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            vertical-align: middle;
+            font-size: 2rem;
+            .card_label{
+                margin:0.5rem 0.5rem;
+                font-weight: 600;
+                font-size: 2.5rem;
+                color:white
+            }
+        }
+        
+    }
+    //Launch Mission Cards
+    .card_container{
+        display:flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        margin-top:6rem;
+        .card{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem;
+            min-width: 25rem;
+            .card-img-top{
+                height:24rem;
+                overflow: hidden;
+            }
+            .card-body{
+                width:25rem;
+                font-weight: 600;
+                h5{
+                    font-weight: 600;
+                }
+            }
+            
+        }
+    }
+}
+
+
+
